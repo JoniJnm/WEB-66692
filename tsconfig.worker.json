@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "strict": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "types": [],
+    "lib": [
+      "ES2022",
+      "WebWorker"
+    ]
+  },
+  "files": [
+    "src/web-worker.ts"
+  ]
+}
